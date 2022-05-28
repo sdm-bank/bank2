@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: bank
+    password: bank
+    url: jdbc:postgresql://localhost:5432/bank
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+logging:
+  level:
+    root: INFO
