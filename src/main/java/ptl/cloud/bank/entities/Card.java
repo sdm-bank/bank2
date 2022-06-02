@@ -10,6 +10,9 @@ import java.util.List;
 @Entity
 @Table(name = "cards")
 @Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Card {
     @Id
     @GeneratedValue
